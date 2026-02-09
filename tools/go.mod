@@ -35,7 +35,7 @@ replace (
 )
 
 // Changes from https://github.com/anchore/syft/pull/3932 for deterministic SBOM
-replace github.com/anchore/syft => github.com/dsseng/syft v1.38.1-0.20251209211322-02dcfbd7cb07
+replace github.com/anchore/syft => github.com/dsseng/syft v1.26.2-0.20250522144726-31c1be6d4d3b
 
 require (
 	4d63.com/gocheckcompilerdirectives v1.3.0 // indirect
@@ -424,7 +424,7 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pkg/profile v1.7.0 // indirect
 	github.com/pkg/xattr v0.4.12 // indirect
-	github.com/planetscale/vtprotobuf v0.6.1-0.20240319094008-0393e58bdf10 // indirect
+	github.com/planetscale/vtprotobuf v0.6.1-0.20250313105119-ba97887b0a25 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/prometheus/client_golang v1.23.2 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
@@ -465,9 +465,9 @@ require (
 	github.com/siderolabs/deep-copy v0.5.8 // indirect
 	github.com/siderolabs/gen v0.8.6 // indirect
 	github.com/siderolabs/importvet v0.2.0 // indirect
-	github.com/siderolabs/talos/tools/docgen v0.0.0-20260206091223-d5ebcd7cae1a // indirect
-	github.com/siderolabs/talos/tools/gotagsrewrite v0.0.0-20260206091223-d5ebcd7cae1a // indirect
-	github.com/siderolabs/talos/tools/structprotogen v0.0.0-20260206091223-d5ebcd7cae1a // indirect
+	github.com/siderolabs/talos/tools/docgen v0.0.0-20260209104139-52e8727d0112 // indirect
+	github.com/siderolabs/talos/tools/gotagsrewrite v0.0.0-20260209104139-52e8727d0112 // indirect
+	github.com/siderolabs/talos/tools/structprotogen v0.0.0-20260209104139-52e8727d0112 // indirect
 	github.com/sirupsen/logrus v1.9.4 // indirect
 	github.com/sivchari/containedctx v1.0.3 // indirect
 	github.com/skeema/knownhosts v1.3.1 // indirect
@@ -547,7 +547,7 @@ require (
 	go.uber.org/zap v1.27.1 // indirect
 	go.yaml.in/yaml/v2 v2.4.3 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	go.yaml.in/yaml/v4 v4.0.0-rc.3 // indirect
+	go.yaml.in/yaml/v4 v4.0.0-rc.4 // indirect
 	go4.org v0.0.0-20230225012048-214862532bf5 // indirect
 	golang.org/x/crypto v0.47.0 // indirect
 	golang.org/x/exp v0.0.0-20260112195511-716be5621a96 // indirect
